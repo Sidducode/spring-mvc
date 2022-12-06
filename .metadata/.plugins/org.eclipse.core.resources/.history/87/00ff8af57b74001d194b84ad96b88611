@@ -1,0 +1,9 @@
+package com.spring.entity.user.service;
+
+import com.spring.entity.user.User;
+
+public interface UserService {
+	
+	int saveUser(User user);
+
+}

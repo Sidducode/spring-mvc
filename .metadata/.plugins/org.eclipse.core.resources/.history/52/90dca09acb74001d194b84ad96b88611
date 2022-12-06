@@ -1,0 +1,15 @@
+package com.spring.entity.user.services.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.spring.entity.user.dao.UserDao;
+import com.spring.entity.user.services.UserServices;
+
+
+@Service
+public class UserServicesImpl implements UserServices {
+
+	@Autowired
+	UserDao  dao;
+}

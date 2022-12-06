@@ -1,0 +1,8 @@
+package com.spring.entity.user.Dao;
+
+import com.spring.entity.user.User;
+
+public interface UserDao {
+
+	int createuser(User user);
+}

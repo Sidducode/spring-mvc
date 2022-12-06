@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hello</title>
+</head>
+<body>
+ <h1>Wellcom ,hello </h1>
+ <h2>Acronym and Abbreviation Example</h2>  
+   <acronym title="Indian Space Research Organisation">ISRO</acronym>  
+   <abbr title="National Aeronautics and Space Administration">NASA</abbr>  
+</body>
+</html>

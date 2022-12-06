@@ -1,0 +1,6 @@
+com\spring\entity\user\dao\impl\UserDaoImpl.class
+com\spring\entity\user\entity\User.class
+com\spring\entity\user\services\UserServices.class
+com\spring\entity\user\dao\UserDao.class
+com\spring\entity\user\controller\UserController.class
+com\spring\entity\user\services\impl\UserServicesImpl.class

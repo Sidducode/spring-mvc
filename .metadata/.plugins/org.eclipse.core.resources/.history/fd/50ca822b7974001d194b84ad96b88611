@@ -1,0 +1,5 @@
+package com.spring.entity.user.Dao;
+
+public interface UserDao {
+
+}

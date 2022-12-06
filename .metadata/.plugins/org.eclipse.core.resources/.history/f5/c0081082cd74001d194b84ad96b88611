@@ -1,0 +1,19 @@
+package com.spring.entity.user.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.spring.entity.user.services.UserServices;
+
+public class UserController {
+
+	@Autowired
+	private UserServices  userServices;
+
+	public UserServices getUserServices() {
+		return userServices;
+	}
+
+	public void setUserServices(UserServices userServices) {
+		this.userServices = userServices;
+	}
+}

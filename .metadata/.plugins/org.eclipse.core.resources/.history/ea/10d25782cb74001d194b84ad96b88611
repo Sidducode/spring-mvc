@@ -1,0 +1,21 @@
+package com.spring.entity.user.dao.impl;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.spring.entity.user.dao.UserDao;
+
+
+@Repository
+public class UserDaoImpl implements UserDao {
+
+	private HibernateTemplate hibernateTemplate;
+
+	public HibernateTemplate getHibernateTemplate() {
+		return hibernateTemplate;
+	}
+
+	public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
+		this.hibernateTemplate = hibernateTemplate;
+	}
+}
